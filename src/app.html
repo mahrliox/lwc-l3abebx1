@@ -1,0 +1,112 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<br/>
+		<h3 class="">Resumen de Compra</h3>
+		<br/><br/>
+		<h4 class="slds-text-heading_small">PRODUCTOS SELECCIONADOS</h4>
+
+		<!-- Using an if statement -->
+		<template if:true={showFeatures}>
+			<div class="slds-p-top_large slds-grid slds-gutters slds-wrap">
+				<div class="slds-col slds-size_2-of-3">
+					<p class="slds-text-heading_small">Paquete de maternidad estándar cesárea</p>
+				</div>
+				<div class="slds-col slds-size_1-of-12 slds-text-align_right">
+					<button class="slds-button slds-button_icon" title="Settings">
+						<lightning-icon icon-name="utility:add" alternative-text="Connected" size="xx-small" title="xx-small size"></lightning-icon>
+					</button>
+				</div>
+				<div class="slds-col slds-size_1-of-12 slds-text-heading_small">
+					<div class="bgGris slds-text-align_center">1</div>
+				</div>
+				<div class="slds-col slds-size_1-of-12 slds-text-align_left">
+					<button class="slds-button slds-button_icon" title="Settings">
+						<lightning-icon icon-name="utility:dash" alternative-text="Connected" size="xx-small" title="xx-small size"></lightning-icon>
+					</button>
+				</div>
+				<div class="slds-col slds-size_1-of-12 slds-text-align_right">
+					<button class="slds-button slds-button_icon" title="Settings">
+						<lightning-icon icon-name="utility:close" alternative-text="Connected" size="xx-small" title="xx-small size"></lightning-icon>
+					</button>
+				</div>
+				<br/>
+				<br/>
+				<div class="slds-col slds-size_1-of-9 slds-text-heading_small">
+					<div class="bgGris slds-text-align_center">&nbsp;&nbsp;&nbsp;$24,900&nbsp;&nbsp;&nbsp;</div>
+
+				</div>
+				<br/><br/>
+				<div class="slds-col slds-size_3-of-3">
+					<div class="slds-border_bottom"></div>
+				</div>
+			</div>
+			<div class="slds-p-top_large slds-grid slds-gutters slds-wrap"></div>
+
+			<div class="slds-p-top_large slds-grid slds-gutters slds-wrap">
+				<div class="slds-col slds-size_8-of-12">
+					<p class="slds-text-heading_small">Tromboplastina parcial DE (TTPa)</p>
+				</div>
+				<div class="slds-col slds-size_1-of-12 slds-text-align_right">
+					<button class="slds-button slds-button_icon" title="Settings">
+						<lightning-icon icon-name="utility:add" alternative-text="Connected" size="xx-small" title="xx-small size"></lightning-icon>
+					</button>
+				</div>
+				<div class="slds-col slds-size_1-of-12 slds-text-heading_small">
+					<div class="bgGris slds-text-align_center">2</div>
+				</div>
+				<div class="slds-col slds-size_1-of-12 slds-text-align_left">
+					<button class="slds-button slds-button_icon" title="Settings">
+						<lightning-icon icon-name="utility:dash" alternative-text="Connected" size="xx-small" title="xx-small size"></lightning-icon>
+					</button>
+				</div>
+				<div class="slds-col slds-size_1-of-12 slds-text-align_right">
+					<button class="slds-button slds-button_icon" title="Settings">
+						<lightning-icon icon-name="utility:close" alternative-text="Connected" size="xx-small" title="xx-small size"></lightning-icon>
+					</button>
+				</div>
+				<br/>
+				<br/>
+				<div class="slds-col slds-size_1-of-9 slds-text-heading_small">
+					<div class="bgGris slds-text-align_center">&nbsp;&nbsp;&nbsp;$487.68&nbsp;&nbsp;&nbsp;</div>
+
+				</div>
+				<br/><br/>
+				<div class="slds-col slds-size_3-of-3">
+					<div class="slds-border_bottom"></div>
+				</div>
+			</div>
+			<div class="slds-p-top_large slds-grid slds-gutters slds-wrap"></div>
+			<br/>
+			<div class="slds-p-top_large slds-grid slds-gutters slds-wrap slds-grid_align-end">
+				<div class="slds-col slds-size_1-of-6 slds-text-heading_small">
+					<div class="bgGris slds-text-align_center">TOTAL</div>
+				</div>
+				<div class="slds-col slds-size_1-of-6 slds-text-heading_small">
+					<div class="bgGris slds-text-align_center">$25387.68</div>
+				</div>
+			</div>
+		</template>
+		<br/>
+		<br/>
+		<br/>
+		<template if:true={showFeatures}>
+			<div class="slds-p-top_large slds-grid slds-gutters slds-grid_align-end">
+				<div class="slds-col slds-size_2-of-8">
+					<div class="grisColor slds-text-align_center">
+						<button class="slds-button">CANCELAR</button>
+					</div>
+				</div>
+				<div class="slds-col slds-size_2-of-8">
+					<div class="blueColor slds-text-align_center">
+						<button class="slds-button">CONTINUAR</button>
+					</div>
+				</div>
+			</div>
+		</template>
+
+
+
+
+
+	</div>
+</template>

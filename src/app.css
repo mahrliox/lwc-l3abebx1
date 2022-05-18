@@ -1,0 +1,57 @@
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+}
+h1 {
+    color: #A9A8A9;
+    font: Helvetica;
+    font-weight: bold;
+}
+h4 {
+    color: #A9A8A9;
+    font: Helvetica;
+    font-weight: normal;
+}
+p {
+    font: Helvetica;
+    color: #00A7E1;
+    font-weight: bold;
+}
+.slds-border_bottom {
+    border-bottom: 1px solid #181717;
+    padding-left: 1rem !important;
+}
+.bgGris {
+    font: Helvetica;
+    font-weight: bold;
+    background-color: #d8d8d8;
+}
+.pad-left {
+    padding-left: 1rem;
+}
+.slds-icon-text-default .slds-icon .slds-icon--xx-small .slds-icon_xx-small{
+    fill: #080707;
+    background-color: blanchedalmond;
+}
+.slds-button { 
+    color: #fafaf9;
+}
+.blueColor {
+    font: Helvetica;
+    font-weight: bold;
+    background-color: #00A7E1;
+}
+.grisColor {
+    font: Helvetica;
+    font-weight: bold;
+    background-color: #d8d8d8;
+}
+.app {
+    background-color: #fafaf9;
+    height: 100vh;
+    overflow: scroll;
+}
